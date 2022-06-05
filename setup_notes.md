@@ -2,7 +2,7 @@
 
 ## Overview
 
-These are the setup notes for a new Mac laptop, purchased in May of 2022. It is a MacBook Air with a 265GB SSD drive and using Apple Silicon M1 processor. It's running MacOS 12.2.1 Monterey. 
+These are the setup notes for a new Mac laptop, purchased in May of 2022. It is a MacBook Air with a 265GB SSD drive and using Apple Silicon M1 processor. It's running MacOS 12.2.1 Monterey. (Note: during the install process for Ruby I updated the OS to give a clean start and it is now MacOS Monterey 12.4)
 
 These are the steps I took to create a working development environment. -- Lisa Williams, Saturday June 4, 11:55 PM
 
@@ -31,6 +31,14 @@ These are the steps I took to create a working development environment. -- Lisa 
 * Having done that I ran `brew doctor` and recieved `Your system is ready to brew`
 * I think I may leave install of Ruby and the other items on the Shopping List until tomorrow (it's actually already tomorrow but you know what I mean).
 
+Sunday, June 5 2022
+
+* Following the instructions [here](https://mac.install.guide/ruby/1.html) I updated MacOS. It is now Monterey 12.4. 
+* I am using [Mac Install Guide: Ruby](https://mac.install.guide/ruby/) to use up-to-date Ruby rather than Mac system Ruby (which is old and may be deprecated soon).
+* Installed `asdf`, a package manager for Ruby, using `homebrew`. Did this because `asdf` will let you manage multiple versions of Ruby. Not totally sure this is necessary for me...but the fact that I have system Ruby and want a current and updateable Ruby makes it seem like a goodish bet?
+* Installed Ruby using `asdf` according to the instructions [here](https://mac.install.guide/ruby/6.html)
+* `ruby -v` now returns Ruby 3.1.2p20 2022-04-12
+* 
 
 
 
@@ -42,6 +50,7 @@ These are the steps I took to create a working development environment. -- Lisa 
 * Sublime Text DONE
 * Git/Github DONE 
 * Homebrew DONE
-* Ruby 3.0
-* fork/clone lisa and autolisa repos
+* Install asdf for Ruby version management DONE
+* Ruby 3.1.2 DONE
+* fork/clone lisa and autolisa repos DONE
 * Install Tableau and port license key and workbooks
