@@ -38,7 +38,7 @@ Sunday, June 5 2022
 * Installed `asdf`, a package manager for Ruby, using `homebrew`. Did this because `asdf` will let you manage multiple versions of Ruby. Not totally sure this is necessary for me...but the fact that I have system Ruby and want a current and updateable Ruby makes it seem like a goodish bet?
 * Installed Ruby using `asdf` according to the instructions [here](https://mac.install.guide/ruby/6.html)
 * `ruby -v` now returns Ruby 3.1.2p20 2022-04-12
-* 
+* forked and cloned `lisa` and tested connection to github (success)
 
 
 
