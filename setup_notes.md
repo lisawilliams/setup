@@ -23,15 +23,25 @@ These are the steps I took to create a working development environment. -- Lisa 
 * Began the process of setting up git and connecting it to github via these instructions: https://kbroman.org/github_tutorial/pages/first_time.html
 * * Ran `git init` in `setup`, added files, wrote commit message, pushed (but failed)
 * Got stopped because the instructions assume a username/password for github from the command line. Github now uses personal access tokens. I generated a new token using these instructions, saved it to my github account, and was able to push my local repo to github. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+* After pushing repo, was able to find setup repo on Github: https://github.com/lisawilliams/setup/blob/main/setup_notes.md
+* Installing Homebrew via the command line with the following command `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` according to the homebrew homepage here https://brew.sh/ Not clear to me if you need to be in a specific dir to do that so I went cd ~ first. 
+* That works but you need to `sudo` which is fine I guess. It downloads Command Line Tools for XCode. You would think with how big it is the CLI for XCode would come with but I guess not. 
+* This also seems to take a minute. Back to *Years and Years.* 
+* Homebrew installed but gave the following message `Warning: /opt/homebrew/bin is not in your PATH.` Helpful instructions gave a fix: Next steps: Run these two commands in your terminal to add Homebrew to your PATH: `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/lisawilliams/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"`
+* Having done that I ran `brew doctor` and recieved `Your system is ready to brew`
+* I think I may leave install of Ruby and the other items on the Shopping List until tomorrow (it's actually already tomorrow but you know what I mean).
+
+
+
 
 
 
 ## Shopping list: 
 
-* XCode
-* Sublime Text
-* Git/Github
-* Homebrew
+* XCode DONE
+* Sublime Text DONE
+* Git/Github DONE 
+* Homebrew DONE
 * Ruby 3.0
 * fork/clone lisa and autolisa repos
 * Install Tableau and port license key and workbooks
