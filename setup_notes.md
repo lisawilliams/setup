@@ -4,6 +4,8 @@
 
 These are the setup notes for a new Mac laptop, purchased in May of 2022. It is a MacBook Air with a 265GB SSD drive and using Apple Silicon M1 processor. It's running MacOS 12.2.1 Monterey. (Note: during the install process for Ruby I updated the OS to give a clean start and it is now MacOS Monterey 12.4)
 
+
+
 These are the steps I took to create a working development environment. -- Lisa Williams, Saturday June 4, 11:55 PM
 
 * Opened laptop, powered it on, went through Mac setup process. Opted out of Migration Assistant for now. 
@@ -54,3 +56,12 @@ Sunday, June 5 2022
 * Ruby 3.1.2 DONE
 * fork/clone lisa and autolisa repos DONE
 * Install Tableau and port license key and workbooks
+
+
+Mon, Jun 24, 2024. I am following these notes once again to set up a new Mac laptop running iOS 14.3 (Sonoma).
+
+* Laptop is set up. As usual I deferred Migration Assistant. 
+* Tableau keys and workbooks were set up last week. 
+* Downloaded and installed XCode (seemed to be much faster this time). 
+* XCode appears to have installed Git. I was able to fork and clone the repo this note resides in. I will test it further to be sure I can also push changes to a repository on Github. 
+* 
