@@ -70,3 +70,5 @@ Mon, Jun 24, 2024. I am following these notes once again to set up a new Mac lap
 * It takes a minute, it's installing command line tools for XCode. 
 * Once it downloads, read the last few lines in the terminal; there are two commands it wants you to enter at the command line. Entered those, typed "brew help" and it showed me the man pages; did _brew install lolcat_, it installed cleanly and worked. 
 * Cloned /lisa repo to be able to maintain my personal website. Haven't tested if I can push/make changes yet. 
+
+My sense is that it was significantly easier and faster to set up developer/tech tools this time around than it was 2 years ago. 
