@@ -72,3 +72,23 @@ Mon, Jun 24, 2024. I am following these notes once again to set up a new Mac lap
 * Cloned /lisa repo to be able to maintain my personal website. Haven't tested if I can push/make changes yet. 
 
 My sense is that it was significantly easier and faster to set up developer/tech tools this time around than it was 2 years ago. 
+
+I notice that Git is telling me this when I make a commit message: 
+
+``` 
+Committer: Lisa Williams [REDACTED]
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ ```
+
+ I'm not sure if this makes a difference but I suppose I will get around to it at some point. 
