@@ -64,4 +64,9 @@ Mon, Jun 24, 2024. I am following these notes once again to set up a new Mac lap
 * Tableau keys and workbooks were set up last week. 
 * Downloaded and installed XCode (seemed to be much faster this time). 
 * XCode appears to have installed Git. I was able to fork and clone the repo this note resides in. I will test it further to be sure I can also push changes to a repository on Github. 
-* 
+* Github no longer uses passwords to access repositories from the command line. I generated a "classic" personal access token using these instructions: [Managing Personal Access Tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+* I pushed changes to this document. The push was successful and the changes appeared on Github. So that means my new laptop can now manage my repositories and push them to Github. 
+* Installing _homebrew_, which now you apparently DO NOT install as root. So don't sudo su. If you did, type "Exit" (no quotes) and hit return to exit the sudo shell. Just grab the install link, paste it, hit enter. 
+* It takes a minute, it's installing command line tools for XCode. 
+* Once it downloads, read the last few lines in the terminal; there are two commands it wants you to enter at the command line. Entered those, typed "brew help" and it showed me the man pages; did _brew install lolcat_, it installed cleanly and worked. 
+* Cloned /lisa repo to be able to maintain my personal website. Haven't tested if I can push/make changes yet. 
